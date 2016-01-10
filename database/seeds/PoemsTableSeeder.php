@@ -63,6 +63,21 @@ class PoemsTableSeeder extends Seeder
         'text' => '<h1>The Night</h1><p>The tired day droops, slowly waning,<br/>The noisy waves are now tranquil.<br/>The sun has set, the moon is sailing<br/>Above the world, absorbed and still.</p><p>The valley listens to the babbles<br/>Of peaceful river in the dale.<br/>The forest, dark and bending, slumbers<br/>To warbling of the nightingale.</p><p>The river, listening in and fondling,<br/>Talks with the banks in quiet hush.<br/>And up above resounds, a-rolling,<br/>The merry rustle of the rush.</p>',
         'language_id' => 1,
         'created_at' => $today
+      ],[
+		'name' => 'I do believe in happiness!',
+		'text' => '<h1>I do believe in happiness!</h1><p>I do believe in happiness!<br/>The sun has not yet faded. Rays<br/>Of sunrise like a book of prayers<br/>Predict the happy news. Oh yes!<br/>I do believe in happiness!</p><p>Ring, golden Russia, carry on,<br/>Oh blow you wind, so unabated!<br/>Blessed is the one who celebrated<br/>Your shepherd\'s sadness, hope forlorn.<br/>Ring, golden Russia, carry on!</p><p>I love the wild impetuous streams,<br/>The shine of stars upon the water.<br/>The blessed dejection, crying quarter,<br/>The blessing people and extremes<br/>Of roaring wild impetuous streams.</p>',
+		'language_id' => 1,
+        'created_at' => $today
+      ],[
+		'name' => 'I do not regret, and I do not shed tears',
+		'text' => '<h1>I do not regret, and I do not shed tears</h1></h1><p>I do not regret, and I do not shed tears,<br/>All, like haze off apple-trees, must pass.<br/>Turning gold, I\'m fading, it appears,<br/>I will not be young again, alas.</p><p>Having got to know the touch of coolness<br/>I will not feel, as before, so good.<br/>And the land of birch trees, - oh my goodness!-<br/>Cannot make me wander barefoot.</p><p>Vagrant\'s spirit! You do not so often<br/>Stir the fire of my lips these days.<br/>Oh my freshness, that begins to soften!<br/>Oh my lost emotions, vehement gaze!</p><p>Presently I do not feel a yearning,<br/>Oh, my life! Have I been sleeping fast?<br/>Well, it feels like early in the morning<br/>On a rosy horse I"ve galloped past.</p><p>We are all to perish, hoping for some favour,<br/>Copper leaves flow slowly down and sway...<br/>May you be redeemed and blessed for ever,<br/>You who came to bloom and pass away...</p>',
+		'language_id' => 1,
+        'created_at' => $today
+      ],[
+		'name' => 'The flowers say good-bye to me',
+		'text' => '<h1>The flowers say good-bye to me</h1><p>The flowers say good-bye to me,<br/> They bend their heads and bow low down <br/> Which means that I will never see<br/> Her lovely face and my home town.</p><p> Well, that\'s the way it is, my love!<br/> I saw them all in habitation,<br/> I take this deathly trepidation<br/> For tender feeling, still alive.</p><p> I\'ve learnt my life day after day,<br/> I have been living with a smile, and<br/> Thus I invariably say:<br/> In our world all is recurrent.</p><p> Well, some one else will come along,<br/> No grief will sooth the past. The new one, <br/> Perchance, will sing a better song<br/> For the beloved forsaken woman.</p><p> And listening to the song, maybe,<br/> Caressing her endeared lover,<br/> She\'ll probably remember me<br/> As a unique and cherished flower. </p>',
+		'language_id' => 1,
+        'created_at' => $today
       ]
     ];
 
