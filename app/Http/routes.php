@@ -46,5 +46,9 @@ Route::group(['prefix' => 'api'], function(){
     Route::get('names', 'PoemController@names');
     Route::get('get_poem', 'PoemController@get_poem');
   });
+
+  Route::group(['prefix' => 'languages'], function(){
+    Route::get('/', 'LanguageController@index');
+  });
 });
 /* API end */

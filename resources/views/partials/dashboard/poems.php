@@ -4,8 +4,7 @@
   </div>
   <div class="col-sm-8">
     <div class="btn-group pull-right" role="group">
-      <button type="button" ng-class="{active: vm.currentLanguage == 'en_US'}" class="btn btn-default" ng-click="vm.changeLanguage('en_US')">English</button>
-      <button type="button" ng-class="{active: vm.currentLanguage == 'hr_HR'}" class="btn btn-default" ng-click="vm.changeLanguage('hr_HR')">Croatian</button>
+      <button ng-class="{active: vm.currentLanguage == language.iso_name}" class="btn btn-default" ng-click="vm.changeLanguage(language)" ng-repeat="language in vm.languages">{{ language.name }}</button>
     </div>
   </div>
 </div>

@@ -16,27 +16,33 @@
     vm.onSearchName = onSearchName;
     vm.poemNamesPrevPage = poemNamesPrevPage;
     vm.poemNamesNextPage = poemNamesNextPage;
+    vm.languages = [];
 
 
     activate();
 
     function activate() {
-      var promises = [getPoemNames()];
+      var promises = [getPoemNames(), getLanguages()];
       return $q.all(promises).then(function() {
         console.log('Dashboard loaded.');
       });
     }
 
     function getPoemNames() {
-      var params = {
-        language: vm.currentLanguage
-      };
+      var params = { language: vm.currentLanguage };
       if(vm.searchName !== '') { params['search_name'] = vm.searchName }
       if(vm.poemNamesPagination.current_page) { params['page'] = vm.poemNamesPagination.current_page; }
+
       return $http.get('/api/poems/names', { params: params }).then(function(response) {
         vm.poemNames = response.data.data;
         delete response.data.data;
         vm.poemNamesPagination = response.data;
+      });
+    }
+
+    function getLanguages() {
+      return $http.get('/api/languages').then(function(response) {
+        vm.languages = response.data;
       });
     }
 
@@ -49,7 +55,7 @@
     }
 
     function changeLanguage(language) {
-      vm.currentLanguage = language;
+      vm.currentLanguage = language.iso_name;
       getPoemNames();
       vm.chosenPoem = null;
     }
