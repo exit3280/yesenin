@@ -21,6 +21,10 @@ class LanguagesTableSeeder extends Seeder
         'name' => 'Croatian',
         'iso_name' => 'hr_HR',
         'created_at' => $today
+      ],[
+		'name' => 'Russian',
+		'iso_name' => 'ru_RU',
+		'created_at' => $today
       ]
     ];
 
