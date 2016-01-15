@@ -78,6 +78,11 @@ class PoemsTableSeeder extends Seeder
 		'text' => '<h1>The flowers say good-bye to me</h1><p>The flowers say good-bye to me,<br/> They bend their heads and bow low down <br/> Which means that I will never see<br/> Her lovely face and my home town.</p><p> Well, that\'s the way it is, my love!<br/> I saw them all in habitation,<br/> I take this deathly trepidation<br/> For tender feeling, still alive.</p><p> I\'ve learnt my life day after day,<br/> I have been living with a smile, and<br/> Thus I invariably say:<br/> In our world all is recurrent.</p><p> Well, some one else will come along,<br/> No grief will sooth the past. The new one, <br/> Perchance, will sing a better song<br/> For the beloved forsaken woman.</p><p> And listening to the song, maybe,<br/> Caressing her endeared lover,<br/> She\'ll probably remember me<br/> As a unique and cherished flower. </p>',
 		'language_id' => 1,
         'created_at' => $today
+      ],[
+		'name' => 'Письмо к матери',
+		'text' => '<h1>Письмо к матери</h1><p>Ты жива еще, моя старушка?<br/>Жив и я. Привет тебе, привет!<br/>Пусть струится над твоей избушкой<br/>Тот вечерний несказанный свет.</p><p>Пишут мне, что ты, тая тревогу,<br/>Загрустила шибко обо мне,<br/>Что ты часто ходишь на дорогу<br/>В старомодном ветхом шушуне.</p><p>И тебе в вечернем синем мраке<br/>Часто видится одно и то ж:<br/>Будто кто-то мне в кабацкой драке<br/>Саданул под сердце финский нож.</p><p>Ничего, родная! Успокойся.<br/>Это только тягостная бредь.<br/>Не такой уж горький я пропойца,<br/>Чтоб, тебя не видя, умереть.</p><p>Я по-прежнему такой же нежный<br/>И мечтаю только лишь о том,<br/>Чтоб скорее от тоски мятежной<br/>Воротиться в низенький наш дом.</p><p>Я вернусь, когда раскинет ветви<br/>По-весеннему наш белый сад.<br/>Только ты меня уж на рассвете<br/>Не буди, как восемь лет назад.</p><p>Не буди того, что отмечталось,<br/>Не волнуй того, что не сбылось, -<br/>Слишком раннюю утрату и усталость<br/>Испытать мне в жизни привелось.</p><p>И молиться не учи меня. Не надо!<br/>К старому возврата больше нет.<br/>Ты одна мне помощь и отрада,<br/>Ты одна мне несказанный свет.</p><p>Так забудь же про свою тревогу,<br/>Не грусти так шибко обо мне.<br/>Не ходи так часто на дорогу<br/>В старомодном ветхом шушуне.</p>',
+		'language_id' => 3,
+        'created_at' => $today
       ]
     ];
 
