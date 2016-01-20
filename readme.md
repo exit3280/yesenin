@@ -7,7 +7,7 @@ After a lot of *googling*, I found it interesting that most of the websites with
 You can check out the website on [http://yesenin.herokuapp.com](http://yesenin.herokuapp.com).
 
 Technical TODO:
-  - languages are currently hard coded (English and Croatian) – load the list from the server
+  - ~~languages are currently hard coded (English and Croatian) – load the list from the server~~
   - allow users to add poems
   - allow users to read poems with JavaScript turned-off
 
