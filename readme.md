@@ -33,7 +33,10 @@ resources/views/layout.blade.php # main layout file
 
 ## Run the app locally
 Run these commands:
+
 ```sh
+# composer will download Laravel
+composer install
 # npm will install everything you need on the server-side
 npm install
 # bower will install everything you need on the client-side
